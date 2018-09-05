@@ -36,7 +36,7 @@ My interest here will be to analyze U.S. automobile fuel efficiency over time fo
 
 The dataset used in this project is courtesy of the U.S. Department of Energy and the US Environmental Protection Agency. The data contain information gathered for over 36 years starting from the year 1984 to the year 2019. Over the years, Regular Gasoline has been the most used primary fuel type followed by Premium Gasoline and Natural Gas was the least used. We also recorded that the number of cars with automatic transmission doubled that of manual transmissions.
 
-The dataset has some missing values which are represented by `nan`. The graph below can clearly indicate features with missing values. We can see 13 features with more than 20% of missing values. These features were considered outliers and removed from the dataset.
+The dataset has some missing values which are represented by `nan`. The graph below can clearly indicate features with missing values. We can see 8 features with more than 20% of missing values. These features were considered outliers and removed from the dataset.
 
 ![title](images/missingVAlues.png)
 
@@ -65,6 +65,9 @@ We see that in the year 2007, engine displacement reached its summit, with a sud
 **Figure3: Engine Displacement over time**
 
 ### c. Which car brand or model is more economical?
+In this section, we focused on single fuel gasoline cars with 4-cylinders that were present in every year of this study(36 years). These vehicles are:
+**Toyota**,**Mazda**, **Chevrolet**, **Honda**, **Ford**,**Jeep**,**Subaru**, **Nissan**,**Mitsubishi**,**Volkswagen**.
+
 We see that most manufacturers have shown improvement over time, though several manufactueres have demonstrated quite sharp fuel efficiency increases in the last 5 years.
 - **Honda**, **Mazda**, **Volkswagen** and **Toyota** have shown a massive improvement in fuel efficiency and there are the most efficient in the list.
 - **Jeep** and **Ford** shows a really poor fuel efficiency.
@@ -105,7 +108,7 @@ Then we used the following evaluation technique to optimize the model performanc
 - Grid Search CV
 - Cross Validation Score
 
-**NB** We will focus our prediction on the manufacturer of Toyota
+**NB** We will focus our prediction on the manufacturer of Toyota. Also, we couldn't use all our data since it is large, and it took us a lot of time to train with the various machine learning models.
 
 ##### Models performance
 
