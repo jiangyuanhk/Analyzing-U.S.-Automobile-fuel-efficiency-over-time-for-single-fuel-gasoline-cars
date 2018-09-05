@@ -132,4 +132,4 @@ Then we used the following evaluation technique to optimize the model performanc
 
 As seen on the tables above, 3 models where implemented, to select the best model, we applied GridSearch and cross validation technique. We can see that the best model is Stochastic Gradient Decent Classifier with an accuracy of 99%. Hence this model is accepted as our chosen model.
 
-**NB** We see that Logistic Regression has 100%. This maybe because of overfitting. Also, Support Vector Classifier has 99%, however, this model is computationally very expensive(Takes more time to run the GridSearchCV, especially for large datasets)
+**NB** We see that Logistic Regression has 100%, this is a sign of overfitting. Also, Support Vector Classifier has 99%, however, this model is computationally very expensive(Takes more time to run the GridSearchCV, especially for large datasets)
