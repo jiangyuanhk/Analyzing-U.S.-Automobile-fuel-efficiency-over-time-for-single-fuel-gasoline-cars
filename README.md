@@ -11,7 +11,7 @@ My interest here will be to analyze U.S. automobile fuel efficiency over time fo
 - How does the size of a car engine affect it's fuel consumption?
 - Over the years, what is the most popular engine type in the market?
 - Which car brand or model is more economical?
-- predicting whether a car owner will spend or save, depending on all the characteristics associated to the vehicle
+- predicting whether a car owner will spend or save, depending on some characteristics associated to the vehicle
 
 
 ## 3. Files Structure
@@ -74,7 +74,7 @@ So my advice to anyone who is looking for a more economical brand or model with 
 
 **Figure4: MPG for single fuel cars with 4 cylinders**
 
-### d. predicting whether a car owner will spend or save, depending on all the characteristics associated to the vehicle
+### d. predicting whether a car owner will spend or save, depending on some characteristics associated to the vehicle
 From the graph below, we can see that a good number of features can determine how well you will save or spend on a vehicle. Some features like:
 - **barrels08** which is the annual petroleum consumption in barrels. We see that it has a negative relationship in which the more the annual consumption, the more you will spend and save less.
 - **comb08** which is the MPG(Mile Per Gallon). We see a positive relationship in which the higher the MPG value, the more you will save and spend less.
