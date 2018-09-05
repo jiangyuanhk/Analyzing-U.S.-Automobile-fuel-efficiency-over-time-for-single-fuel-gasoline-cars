@@ -19,6 +19,7 @@ My interest here will be to analyze U.S. automobile fuel efficiency over time fo
 - **data/**: This folder has the dataset `vehicles.csv` for this project
 - **images/**: This folder contain all images used in this project
 - **automobile_fuel_efficiency.ipynb**: This file is where my code resides.
+- **automobile_fuel_efficiency.html**: The notebook in HTML format
 - **README.md**: You are currently looking at this file.
 
 ## 4. Libraries used
